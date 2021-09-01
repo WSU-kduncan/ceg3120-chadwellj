@@ -62,7 +62,7 @@ This is a link to [README.md](README.md)
 ![Markdown demo screenshot](markdown-demo.png)
 ```
 
-![Markdown demo screenshot](markdown-demo.png)
+![Markdown demo screenshot](markdown-demo.PNG)
 
 ## Code
 
