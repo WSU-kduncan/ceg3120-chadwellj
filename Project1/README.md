@@ -6,6 +6,6 @@
 
 # Proof: include screenshots of the repo 
 
--existing on the AWS instance
+- existing on the AWS instance
 
--being cloned to your local system
+- being cloned to your local system
