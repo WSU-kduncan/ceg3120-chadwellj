@@ -2,7 +2,7 @@
 
 **Setup: how to initialize a repo and all other setup steps (users, permissions, keys)**
 
-- On our AWS instance (server) we used the "git init" command to initialize our repository.
+- On our AWS instance (server) we used the "git init" and or "git init --bare" command to initialize our repository.
 
 - After generating an ssh key, we want to ensure that we are the only ones to have r/w permissions on it so that we can continue with the ssh connection.
 
