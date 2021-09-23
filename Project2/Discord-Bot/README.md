@@ -49,4 +49,4 @@
     - Using something like a raspberry pi to host the bot 
     - There are even ways of using IDE's to keep the bot going at all times.
 
-- All of these methods should work due to allowing the bot to be on a computer powering it at all time. Any hosting device, which allows for the file to be powered and kept running 
+- All of these methods should work due to allowing the bot to be on a computer powering it at all time. Any hosting device, which allows for the file to be powered so that python3 bot.py is kept running. 
