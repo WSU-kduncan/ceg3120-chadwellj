@@ -21,8 +21,11 @@
  # Part 2 - EC2 instances
 
  **1.Create a new instance. Give a write up of the following information:**
- - AMI selected: Ubuntu Linux/UNIX
-    - default username of the instacnce type selected:
+ - AMI selected: Ubuntu Linux/UNIX AMI
+    - default username of the instacnce type selected: ubuntu
+ ![default un](images/Capturev.png)
+- Instance type - t2.micro
+
 
 
 
