@@ -22,7 +22,7 @@
 
  **1.Create a new instance. Give a write up of the following information:**
  - AMI selected: Ubuntu Linux/UNIX
-    -default username of the instacnce type selected:
+    - default username of the instacnce type selected:
 
 
 
