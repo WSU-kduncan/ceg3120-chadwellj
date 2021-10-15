@@ -23,7 +23,7 @@
  **1.Create a new instance. Give a write up of the following information:**
  - AMI selected: Ubuntu Linux/UNIX AMI
     - default username of the instacnce type selected: ubuntu
- ![default un](images/Capturev.png)
+ ![default un](images/Capture.PNG)
 - Instance type - t2.micro
 
 
