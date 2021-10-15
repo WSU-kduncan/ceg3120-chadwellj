@@ -36,7 +36,14 @@
   - In step 4 of instance creation "Add Storage" we are able to select the storage volume based off of what we had selected earlier. You have the options of multiple choices for volume types. This will attach the selected volume with the instance.
 
   **5.Tag your instance with a "Name" of "YOURLASTNAME-instance". Say how you did it..**
-  - 
+  - Upon step 5 of instance creation you have the option to create a tag to go with your newly created instance. For my case, I used CHADWELL-instance.
+
+  **6.Associate your security group, "YOURLASTNAME-sg" to your instance. Say how you did it.**
+  - In step 6 of configuring our new instance, instead of creating a new security group we can select the SG we created in part 1 of project3. I selected CHADWELL-sg that I configured in part 1.
+
+ **7.Reserve an Elastic IP address. Tag it with "YOURLASTNAME-EIP". Associate the Elastic IP with your instance. Say how you did it.**
+ - 
+
 
 
 
