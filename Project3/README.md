@@ -47,6 +47,14 @@
  **8.Create a screenshot your instance details and add it to your project write up. Example below:**
   ![instance](images/instance.png)
 
+**9.How to change hostname via commands on instance**
+- Before changing I copied /etc/hostname to a hostname.old file incase of issues. I then ran the commands:
+- sudo hostname CHADWELL-Ubuntu
+- sudo hostnamectl set-hostname CHADWELL-Ubuntu
+
+**10.Screenshot of successful SSH connection to instance (with your new hostname instead of ip-##-##-##-##)**
+  ![ssh](images/ssh.png)
+
 
 
 
