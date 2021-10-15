@@ -15,7 +15,9 @@
  ![RT](images/RT.png)
 
 **5.Create a security group**
- ADD SCREENSHOT AFTER MODIFYING RULE ALLOWING FOR INSTANCE IN VBC
+ ![sg1](images/sg1.png)
+ ![sg2](images/sg2.png)
+
 
 
  # Part 2 - EC2 instances
