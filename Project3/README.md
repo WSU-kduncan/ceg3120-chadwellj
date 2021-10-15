@@ -42,7 +42,11 @@
   - In step 6 of configuring our new instance, instead of creating a new security group we can select the SG we created in part 1 of project3. I selected CHADWELL-sg that I configured in part 1.
 
  **7.Reserve an Elastic IP address. Tag it with "YOURLASTNAME-EIP". Associate the Elastic IP with your instance. Say how you did it.**
- - 
+ - In AWS services navigate to "Elastic IPs". Then I allocated an Elastic IP address named CHADWELL-eip. Then clicking on our newly created elastic IP and clicking Actions>Associate Elastic IP address. For resource type - Instance and then we are able to choose our instance for the elastic IP to be associated with.
+
+ **8.Create a screenshot your instance details and add it to your project write up. Example below:**
+  ![instance](images/instance.png)
+
 
 
 
