@@ -6,5 +6,10 @@
  **2.Create a subnet.**
 ![Subnet](images/SUBNET.png)
 
+ **3.Create an internet gateway**
+ ![gw](images/GW.png)
+
+
+
 
 
