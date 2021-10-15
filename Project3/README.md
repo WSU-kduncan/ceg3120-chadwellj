@@ -6,17 +6,20 @@
 
  **2.Create a subnet.**
 ![Subnet](images/SUBNET.png)
--
+- Subnet is an ip used to split a large network into a smaller grouping of networks, this helps with minimizing traffic. Public will be used to connect to internet, where as private used for not connecting to internet. Essentiall a subnet is a range of IP addresses in the VPC.
 
  **3.Create an internet gateway**
  ![gw](images/GW.png)
+ - Provides a target for our VPC route tables to guide through internet traffic. Additionally, it performs network address translation (NAT). They are used with assigned IP addresses.
 
 **4.Create a route table**
  ![RT](images/RT.png)
+ - Used to determine where network traffic from our subnet / gateway is directed. Directs packets which way to go to get to the destination.
 
 **5.Create a security group**
  ![sg1](images/sg1.png)
  ![sg2](images/sg2.png)
+ - Acts as a virtual firewall for our instance. It controls ingoing and outgoing traffic through our instance. It is a set of inbound rules and outbound rules that direct incoming traffic and outgoing traffic. 
 
 
 
