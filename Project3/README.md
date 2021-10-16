@@ -6,6 +6,7 @@
 
  **2.Create a subnet.**
 ![Subnet](images/SUBNET.png)
+![Subnet](images/SUBNET2.png)
 - Subnet is an ip used to split a large network into a smaller grouping of networks, this helps with minimizing traffic. Public will be used to connect to internet, where as private used for not connecting to internet. Essentiall a subnet is a range of IP addresses in the VPC.
 
  **3.Create an internet gateway**
