@@ -21,7 +21,7 @@ Mappings:
   AWSRegionUbuntu: # AMI for Ubuntu server in each supported region 
     us-east-1:   # N. Virginia
       PV64: NOT_SUPPORTED
-      HVM64: ami-07d0cf3af28718ef8
+      HVM64: ami-09e67e426f25ce0d7 
       HVMG2: NOT_SUPPORTED
 Resources:
   VPC:
@@ -124,12 +124,17 @@ Resources:
           DeviceIndex: '0'
           DeleteOnTermination: 'true'
           SubnetId: !Ref Subnet
-          PrivateIpAddress: 10.0.0.25
+          PrivateIpAddress: 10.0.0.20
       UserData:
         Fn::Base64:
           !Sub |
             #!/bin/bash -xe
             apt-get update && \
             apt-get install -y \
+              git \ 
+              python3 \
+              pip3 \
               replace-me && \
+              hostname CHADWELL-Ubuntu \
+              hostnamectl set-hostname CHADWELL-Ubuntu \
             reboot
