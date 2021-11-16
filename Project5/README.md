@@ -10,3 +10,46 @@
     - 10.0.0.11 WebServ1
     - 10.0.0.10 WebServ2
 
+**2.Document how to SSH in between the systems utilizing their private IPs.**
+
+**3.HAProxy configuration & documentation requirements ( / 5)**
+
+ - **How to install package**
+    - apt-get install -y haproxy in template. Could use sudo apt install haproxy in terminal
+
+ - **What file(s) where modified & their location**
+    -
+
+ - **What configuration(s) were set (if any)**
+    -
+
+-  **How to restart the service after a configuration change**
+    -
+
+- **Resources used (websites)**
+    - 
+
+**4.Webserver 1 & 2 configuration & documentation requirements**
+
+- **How to install package**
+    -
+- **What file(s) where modified & their location**
+    -
+- **What configuration(s) were set (if any)**
+    -
+- **How to restart the service after a configuration change**
+    -
+- **Resources used (websites)**
+    - 
+
+**5.From the browser, when connecting to the proxy server, take two screenshots. ( / 2)**
+- one screenshot that shows content from "server 1"
+![server1](server1.png)
+- one screenshot that shows content from "server 2"
+![server1](server2.png)
+
+
+
+
+
+
