@@ -189,8 +189,7 @@ Resources:
             #!/bin/bash -xe
             apt-get update && \
             # need to install apache or nginx
-            apt-get install -y git && \
-            apt-get install apache2 && \
+             apt-get install -y git apache2 && \
             hostnamectl set-hostname WebServ1 && \
             reboot
   WebServ2Instance:
@@ -225,7 +224,6 @@ Resources:
             #!/bin/bash -xe
             apt-get update && \
             # need to install apache or nginx
-            apt-get install -y git && \
-            apt-get install apache2 && \
+             apt-get install -y git apache2 && \
             hostnamectl set-hostname WebServ2 && \
             reboot
