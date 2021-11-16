@@ -191,7 +191,7 @@ Resources:
             # need to install apache or nginx
             apt-get install -y git && \
             apt-get install apache2 && \
-            hostnamectl set-hostname webserver1 && \
+            hostnamectl set-hostname WebServ1 && \
             reboot
   WebServ2Instance:
     Type: 'AWS::EC2::Instance'
@@ -227,5 +227,5 @@ Resources:
             # need to install apache or nginx
             apt-get install -y git && \
             apt-get install apache2 && \
-            hostnamectl set-hostname webserver2 && \
+            hostnamectl set-hostname WebServ2 && \
             reboot
